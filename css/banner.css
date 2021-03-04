@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+.right {
+    background: blue;
+}
+.left {
+    background: rgb(0, 204, 255);
+flex-direction: column;
+/* justify-content: center; */
+margin: 50px 20px 50px 60px;
+    display: flex;
+}
+.banner {
+    height: 100vh;
+    background: blueviolet;
+
+    display: flex;
+}
