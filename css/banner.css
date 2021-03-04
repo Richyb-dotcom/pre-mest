@@ -5,15 +5,33 @@
     background: blue;
 }
 .left {
-    background: rgb(0, 204, 255);
+    /* background: rgb(10, 46, 58); */
+
+display: flex;
 flex-direction: column;
-/* justify-content: center; */
+justify-content: center;
 margin: 50px 20px 50px 60px;
-    display: flex;
+color: azure;
 }
+.img, h1, p {
+    margin-bottom: 40px;
+}
+
+button {
+    padding: 20px;
+    width: 200px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 3px;
+
+}
+
+
 .banner {
     height: 100vh;
     background: blueviolet;
 
     display: flex;
+    justify-content: space-between;
 }
